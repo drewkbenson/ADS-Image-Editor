@@ -31,7 +31,7 @@ public class hueShifter
  float hue = iHUE/360f;
  System.out.println(hue);
  BufferedImage raw,processed;
- raw = ImageIO.read(new File("F:\\Eclipse Projects\\workspace\\ADS Image Editor\\src\\3840x2160_image3.jpg"));
+ raw = ImageIO.read(new File("C:\\Users\\Drew\\eclipse-workspace\\ADS Image Editor\\src\\3840x2160_image3.jpg"));
  int WIDTH = raw.getWidth();
  int HEIGHT = raw.getHeight();
  processed = new BufferedImage(WIDTH,HEIGHT,raw.getType());
@@ -49,6 +49,6 @@ public class hueShifter
    processed.setRGB(X,Y,Color.getHSBColor(hue,HSV[1],HSV[2]).getRGB());
   }
  }
- ImageIO.write(processed,"PNG",new File("F:\\Eclipse Projects\\workspace\\ADS Image Editor\\src\\Dubai Pictures\\3840x2160_image3_ShiftedTo" + iHUE + ".jpg"));
+ ImageIO.write(processed,"PNG",new File("C:\\Users\\Drew\\eclipse-workspace\\ADS Image Editor\\src\\3840x2160_image3_ShiftedTo" + iHUE + ".jpg"));
  }
 }
