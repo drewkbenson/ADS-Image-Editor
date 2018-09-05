@@ -18,7 +18,7 @@ public class imageHueShifter
 	float hue =iHUE/360.00f;
 	
 	BufferedImage raw,processed;
-	raw = ImageIO.read(new File("F:\\Eclipse Projects\\workspace\\ADS Image Editor\\src\\dump\\tempC.jpg"));
+	raw = ImageIO.read(new File("C:\\Users\\Drew\\eclipse-workspace\\ADS Image Editor\\src\\tempC.jpg"));//UPDATE PATH HERE
 	
 	int WIDTH = raw.getWidth();
 	int HEIGHT = raw.getHeight();
@@ -37,7 +37,7 @@ public class imageHueShifter
 		}
 	}
 	
-	ImageIO.write(processed,"PNG",new File("F:\\Eclipse Projects\\workspace\\ADS Image Editor\\src\\dump\\tempC.jpg"));
+	ImageIO.write(processed,"PNG",new File("C:\\Users\\Drew\\eclipse-workspace\\ADS Image Editor\\src\\tempC.jpg"));//UPDATE PATH HERE
 	
  	}
 }
