@@ -4,6 +4,11 @@ import java.awt.*;
 import java.awt.image.*;
 import static java.lang.System.out;
 
+/**
+*I did not write this code, credit to the authors at abdulfatir.com
+*http://tech.abdulfatir.com/2014/05/changing-hue-of-image.html
+*/
+
 
 public class hueShifter
 {
