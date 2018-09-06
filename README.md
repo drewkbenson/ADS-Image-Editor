@@ -1,8 +1,10 @@
 # ADS-Image-Editor
 An Image Editor made during a computer science class in the senior year of high school and the summer after.  
 
-For examples of what the output, refer to the link below
+For examples of what the output, refer to the link below:
+
 https://imgur.com/a/WSUpTU2
+
 
 Tester.java/Tester2.java/testImage1.java
 
