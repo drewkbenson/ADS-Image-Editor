@@ -22,29 +22,29 @@ ImageCombiner.java
 
 ImageBlurrer.java
 
-This class helps ImageEditor blur images.  Allows for two kinds of blurs to be applied to an image, a gaus blur or a box blur.
+    This class helps ImageEditor blur images.  Allows for two kinds of blurs to be applied to an image, a gaus blur or a box blur.
 
 
 hueShifter.java
 
-I did not write this credit to abdulfatir.com for this code.  Shifts the hue of every pixel to a specified value.
+    I did not write this credit to abdulfatir.com for this code.  Shifts the hue of every pixel to a specified value.
 
 
 ImageHueShifter.java
 
-I did not write this credit to abdulfatir.com for this code, I however did make it easier for my existing program to use.
+    I did not write this credit to abdulfatir.com for this code, I however did make it easier for my existing program to use.
 
 
 warholSupport.java
 
-This class is meant to provide support to the warhol methods in the ImageEditor class.
+    This class is meant to provide support to the warhol methods in the ImageEditor class.
 
 
 ImageEditor.java
 
-This file is the one that will be doing all of the major editing of any image that is put in. Its functions are as follows
+    This file is the one that will be doing all of the major editing of any image that is put in. Its functions are as follows
 
--refresh
+    -refresh
     refreshes the image to its original form.  All changes are discarded
 
 -randomImage
