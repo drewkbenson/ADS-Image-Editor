@@ -12,12 +12,12 @@ Testing the program, you can change the image by calling methods on an imageEdit
 ImageReader.java
 
 
-Reads in the image, returns the image when called, can also return the width and height when prompted.
+    Reads in the image, returns the image when called, can also return the width and height when prompted.
 
 
 ImageCombiner.java
 
-Allows for two images to be read in and combined.
+    Allows for two images to be read in and combined.
 
 
 ImageBlurrer.java
